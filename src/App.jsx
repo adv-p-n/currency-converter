@@ -27,7 +27,7 @@ function App() {
     setConvertedAmount(amount);
 
     // Call convert to re-calculate the convertedAmount after the swap
-    setTimeout(convert, 0); // Ensures convert runs after state updates
+    // setTimeout(convert, 0); // Ensures convert runs after state updates
   };
 
   return (
